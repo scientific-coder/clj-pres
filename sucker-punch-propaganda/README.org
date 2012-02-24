@@ -1,0 +1,76 @@
+* Why Clojure ?
+An exercise in /sucker punch/ propaganda ☺
+* Shapir Whorf hypothesis
+(Yet) Another language ?
+ - some languages make better programs
+ - some also make better programmers !
+* Low barrier to productivity thx to perfect Java interop
+ - Can use/create any java object
+ - same primitive types (incl. java.lang.String)
+Solves the chicken-egg problem (libraries, users base) that have been
+keeping us with C for decades despite all the good work in academia.
+* A Simple Language
+ - Simple :: ≠ easy 
+ - Fighting incidental complexity :: There is no pride to have in
+      mastering needlessly complex tools (java programmers understand
+      this very well when talking about C++ ☺).
+[Richhickey-StuartHallowaySimplicityAintEasy905.mov]
+* Object Oriented !
+ - type
+ - identity
+ - state
+   - attribute names → values
+   - mutability
+ - (single) dynamic dispatching
+ - namespace
+Clojure has it *all*, /à la carte/.
+* Sane defaults
+ - immutability : Value Oriented Programming (transients available but
+   the persistent data structures are extremely efficient)
+ - dynamic typing (type annotations also available)
+ - lexical binding (dynamic binding also available)
+ - static dispatching (dynamic dispatching available, single or
+   multiple)
+ - open structures as maps of interned strings (closed struct available)
+* Practical SMP primitives
+ - thread local mutations of /vars/
+ - queued asynch mutations on /agents/
+ - atomics mutations
+   - single /atoms/
+   - transactions on multiple /refs/
+* Very Simple Syntax ☺
+"Oh, btw, it's a LISP" (→ angry meme pic ☹)
+Not necessarily /easy/ at first but : 
+ - syntactic grouping of pairs
+ - code is data (list), but most data structures are not lists :
+   - [vector]
+   - {map}
+   - #{set}
+ - IDE (e.g. emacs) to the rescue !
+   - help writing (electric parenthesis)
+   - help reading (rainbow parenthesis)
+   - e.g. ≠ i.e. ☺
+* Metaprogramming done right
+ - David Wheeler :: "All problems in computer science can be solved by
+                    another level of indirection".
+ - Myself :: "Any boring (part of a) task can and should be automated away"
+ - Myself again :: "Programming should be fun !"
+
+Hence you should be able to automate programming !
+To make it /easy/, you *need* the /simple/ syntax of code as data structure.
+(disclosure: I'm a Boost::mpl user)
+[Macronomicon by M.Fogus]
+
+* Conclusion
+Perfect Plateform for :
+ - Pompous Purists :: you can add your monads with macros !
+ - Productivity Pirates™ :: you can reuse all the java libs/frameworks !
+ - Painful PHBs :: it's all jars for you, JarJar !
+
+Not all side effects are evil : by learning this language, you'll also
+learn concepts form the great minds behind it. You will also get a
+better understanding of concepts you already (think you) know
+(e.g. OOP, state, time, value, hammocks…).
+
+Learn things and have fun ! (I know you will ☺)
+
