@@ -1,5 +1,5 @@
 * Why Clojure ?
-An exercise in /sucker punch/ propaganda ☺
+  An exercise in /sucker punch/ propaganda ☺
 * Shapir Whorf hypothesis
 (Yet) Another language ?
  - some languages make better programs
@@ -65,7 +65,7 @@ To make it /easy/, you *need* the /simple/ syntax of code as data structure.
 Perfect Plateform for :
  - Pompous Purists :: you can add your monads with macros !
  - Productivity Pirates™ :: you can reuse all the java libs/frameworks !
- - Painful PHBs :: it's all jars for you, JarJar !
+ - Painful PHBs :: it's all jars to you, JarJar !
 
 Not all side effects are evil : by learning this language, you'll also
 learn concepts form the great minds behind it. You will also get a
@@ -74,4 +74,4 @@ better understanding of concepts you already (think you) know
 
 Learn things and have fun ! (I know you will ☺)
 
-* TODO Webliography
+* TODO [Web|Bib]liography
