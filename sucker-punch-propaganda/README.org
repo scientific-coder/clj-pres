@@ -1,6 +1,6 @@
 * Why Clojure ?
   An exercise in /sucker punch/ propaganda ☺
-* Shapir Whorf hypothesis
+* Sapir Whorf hypothesis
 (Yet) Another language ?
  - some languages make better programs
  - some also make better programmers !
