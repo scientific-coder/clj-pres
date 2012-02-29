@@ -1,12 +1,14 @@
-* Why Clojure ?
-  An exercise in /sucker punch/ propaganda ☺
+#+TITLE: Why Clojure ?
+#+AUTHOR:
+#+OPTIONS: toc:nil
 * Sapir Whorf hypothesis
 (Yet) Another language ?
  - some languages make better programs
  - some also make better programmers !
-* Low barrier to productivity thx to perfect Java interop
+* Low barrier to productivity …
+thx to perfect Java interoperability !
  - Can use/create any java object
- - same primitive types (incl. java.lang.String)
+ - Same primitive types (incl. java.lang.String)
 Solves the chicken-egg problem (libraries, users base) that have been
 keeping us with C for decades despite all the good work in academia.
 * A Simple Language
@@ -14,7 +16,7 @@ keeping us with C for decades despite all the good work in academia.
  - Fighting incidental complexity :: There is no pride to have in
       mastering needlessly complex tools (java programmers understand
       this very well when talking about C++ ☺).
-[Richhickey-StuartHallowaySimplicityAintEasy905.mov]
+
 * Object Oriented !
  - type
  - identity
@@ -39,7 +41,9 @@ Clojure has it *all*, /à la carte/.
    - single /atoms/
    - transactions on multiple /refs/
 * Very Simple Syntax ☺
-"Oh, btw, it's a LISP" (→ angry meme pic ☹)
+"Oh, btw, it's a LISP"
+[[file:~/Code/repositories/clj-pres/4clojure-oriented-prez/src/lisp-angry-meme.png]]
+* You are not alone
 Not necessarily /easy/ at first but : 
  - syntactic grouping of pairs
  - code is data (list), but most data structures are not lists :
@@ -50,6 +54,10 @@ Not necessarily /easy/ at first but :
    - help writing (electric parenthesis)
    - help reading (rainbow parenthesis)
    - e.g. ≠ i.e. ☺
+* M-x emacs-ftw
+[[file:clojure-in-emacs.png]]
+* Eclipse plug-in
+[[file:sc-ccw.png]]
 * Metaprogramming done right
  - David Wheeler :: "All problems in computer science can be solved by
                     another level of indirection".
@@ -72,6 +80,20 @@ learn concepts form the great minds behind it. You will also get a
 better understanding of concepts you already (think you) know
 (e.g. OOP, state, time, value, hammocks…).
 
-Learn things and have fun ! (I know you will ☺)
+* TL;DL
+ - Don't fear/dismiss the unknown
+ - Learn things and have fun ! (I know you will ☺)
 
-* TODO [Web|Bib]liography
+* [Web|Bib]liography
+
+ - Talks (slides / videos)
+   - Are We There Yet ?
+   - Hammock Driven Development 
+   - Simple Ain't Easy
+   - …
+ - Books
+   - The Joy of Clojure
+   - Clojure in Action
+   - Programming Clojure $2^{nd}$ ed.
+   - …
+
