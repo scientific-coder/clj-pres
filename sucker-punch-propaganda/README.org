@@ -17,7 +17,7 @@ keeping us with C for decades despite all the good work in academia.
       mastering needlessly complex tools (java programmers understand
       this very well when talking about C++ ☺).
 
-* Object Oriented !
+* Object Oriented ‽
  - type
  - identity
  - state
@@ -43,7 +43,7 @@ Clojure has it *all*, /à la carte/.
 * Very Simple Syntax ☺
 "Oh, btw, it's a LISP"
 [[file:~/Code/repositories/clj-pres/4clojure-oriented-prez/src/lisp-angry-meme.png]]
-* You are not alone
+* Don't panic !
 Not necessarily /easy/ at first but : 
  - syntactic grouping of pairs
  - code is data (list), but most data structures are not lists :
