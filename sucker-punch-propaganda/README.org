@@ -26,6 +26,8 @@ keeping us with C for decades despite all the good work in academia.
  - (single) dynamic dispatching
  - namespace
 Clojure has it *all*, /à la carte/.
+
+Toolbox > swiss army knife
 * Sane defaults
  - immutability : Value Oriented Programming (transients available but
    the persistent data structures are extremely efficient)

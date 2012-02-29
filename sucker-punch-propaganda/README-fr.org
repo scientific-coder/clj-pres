@@ -1,0 +1,118 @@
+#+TITLE: Pourquoi Clojure ?
+#+AUTHOR:
+#+OPTIONS: toc:nil
+* Hypothèse de Sapir Whorf 
+(Encore) un langage de plus ?
+ - certains langages permettent d'écrire de meilleurs programmes
+ - certains langages permettent aussi de devenir de meilleurs
+   programmeurs !
+* Immédiatement productif …
+grâce à une interopérabilité parfaite avec Java !
+ - Possibilité de créer/utiliser n'importe quelle classe/interface ?
+ - Mêmes type primitifs types (y compris java.lang.String)
+Résolution du problème de bootstrapping entre la communauté
+d'utilisateurs et les bibliothèques disponibles (qui nous a empêché de
+profiter des résultats de la recherche en langages de programmation
+pendant des décennies !)
+* Un language simple
+ - Simple :: ≠ facile 
+ - Combattre la complexité incidente :: Il n'y a pas à se glorifier de
+      maîtriser des outils inutilement complexes ! (Les développeurs
+      en java comprennent cela très bien à propos du C++ ☺)
+
+* Orienté Object ‽
+ - type
+ - identité
+ - état
+   - noms d'attributs → values
+   - mutabilité
+ - (single) dynamic dispatching
+ - espace de nommage
+Clojure a *tout* cela, /à la carte/.
+
+Boîte à outils > couteau suisse
+* Comportements par défaut pertinents
+ - immutabilité : Programmatio Orientée Valeur (transients disponibles
+   mais les structures de données persistantes sont extrêmement efficaces)
+ - typage dynamique (possibilité d'annotation de type)
+ - binding lexical (binding dynamic disponible)
+ - static dispatching (dynamic dispatching (single / multiple) disponible)
+ - structures ouvertes : dictionnaires sur des symboles (structures
+   fermées disponibles)
+* Excellentes primitives pour SMP
+*Immutabilité !*
+ - vars :: mutabilité isolée à chaque thread
+ - agents :: mutations asynchrones dans une queue
+ - synchronisation inter-threads :: mutations atomiques
+   - sur un /atoms/
+   - dans des transactions sur de multiples /refs/
+* Une syntaxe très simple ☺
+"Au fait, c'est un LISP"
+[[file:~/Code/repositories/clj-pres/4clojure-oriented-prez/src/lisp-angry-meme.png]]
+* Ne paniquez pas !
+Pas forcément /facile/ au premier abord, mais :
+ - pas de () pour les paires lorsque la syntaxe le permet
+ - le code est une structure de données (liste), mais la plupart des
+   structures de données ne sont pas des listes :
+   - [vector]
+   - {map}
+   - #{set}
+ - Il y a des IDE (e.g. emacs) pour nous aider !
+   - écriture (electric parenthesis)
+   - lecture (rainbow parenthesis)
+   - e.g. ≠ i.e. ☺
+* M-x emacs-ftw
+[[file:clojure-in-emacs.png]]
+* Plug-in Eclipse
+[[file:sc-ccw.png]]
+* La (vraie !) Metaprogrammation
+ - David Wheeler :: "Tous les problèmes d'informatique peuvent être
+                    résolus en ajoutant un niveau d'indirection."
+ - Moi :: "Tout tâche pénible peut et doit être automatisée."
+ - Moi (encore!)  :: "La programmation ne devrait jamais être pénible !"
+
+Donc on devrait être capable d'automatiser de la programmation !
+Pour que ce soit /facile/, il *faut* la /simplicité/ syntaxique du
+code comme structure de données (et je suis un utilisateur de
+Boost::mpl !).
+[Macronomicon by M.Fogus]
+
+* Conclusion
+Plateforme parfaite pour :
+ - Puristes :: vous pouvez ajouter des monades avec les macros !
+ - Adeptes de la productivité à tous crins :: réutilisation de
+      toutes les bibliothèques / frameworks Java !
+ - Chefs de projets frileux :: c'est juste des jars parmi d'autres !
+
+Tous les effets de bord ne sont pas néfastes : en apprenant ce
+langage, vous découvrirez aussi de nouveaux concepts. Vous aurez aussi
+une meilleure compréhension de ce que vous connaissez déjà (e.g.POO,
+état, temps, valeur, hamacs,…)
+
+* TL;DL
+ - Ne craignez/rejetez pas l'inconnu/étrange
+ - Apprenez et amusez-vous !
+
+"+d’autres ne pourront jamais se résoudre à passer des fonctions en
+paramètres d’autres fonctions dans une forêt de parenthèses+" ☹
+
+
+J'ai évité les LISP pendant 10 ans :
+"I was blind, now I can see.
+Rich made a believer out of me !" ☺
+
+
+
+* [Web|Bib]liographie
+
+ - Présentations (slides / vidéos)
+   - Are We There Yet ?
+   - Hammock Driven Development 
+   - Simple Ain't Easy
+   - …
+ - Livres
+   - The Joy of Clojure
+   - Clojure in Action
+   - Programming Clojure 2^{nd} ed.
+   - …
+
