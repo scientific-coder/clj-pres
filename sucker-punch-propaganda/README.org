@@ -44,7 +44,7 @@ Toolbox > swiss army knife
    - transactions on multiple /refs/
 * Very Simple Syntax ☺
 "Oh, btw, it's a LISP"
-[[file:~/Code/repositories/clj-pres/4clojure-oriented-prez/src/lisp-angry-meme.png]]
+[[file:lisp-angry-meme.png]]
 * Don't panic !
 Not necessarily /easy/ at first but : 
  - syntactic grouping of pairs
