@@ -1,6 +1,6 @@
 #+TITLE: Pourquoi Clojure ?
 #+AUTHOR:
-#+DATE: <2012-02-29 Wed 19:30>   
+#+DATE: <2012-02-29 Wed 19:30>
 #+OPTIONS: toc:nil
 * Hypothèse de Sapir Whorf 
 (Encore) un langage de plus ?
@@ -136,3 +136,13 @@ Rich made a believer out of me !" ☺
   (lazy-cat [0 1] (map + (rest fib-seq) fib-seq)))
 #+end_src
  - user> (take 16 fib-seq) :: (0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610)
+* TODO Hands-on !
+ - [[http://tryclj.com/][try clojure !]]
+ - [[https://gist.github.com/1951396][code snippets]]
+   - [[http://www.cljbin.com/paste/4f564497e4b00708a069359e][fibonacci seq 1]]
+   - [[http://www.cljbin.com/paste/4f5644e4e4b00708a069359f][fibonacci seq 2]]
+   - [[http://www.cljbin.com/paste/4f564571e4b00708a06935a0][fizzbuzz]]
+   - [[http://www.cljbin.com/paste/4f564644e4b00708a06935a1][fizzbuzzzapp]]
+   - [[http://www.cljbin.com/paste/4f564754e4b00708a06935a3][menu]]
+
+Souvenez-vous : un IDE vous aidera *beaucoup* pour les () !
